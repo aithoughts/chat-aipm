@@ -48,7 +48,7 @@ LobeChat is an open-source, extensible ([Function Calling][fc-url]), high-perfor
 
 ### 🤖 Agents
 
-- [Agent Index and Submit](https://github.com/lobehub/lobe-chat-agents) | [助手索引与提交](https://github.com/lobehub/lobe-chat-agents/blob/main/README.zh-CN.md)
+- [Agent Index and Submit](https://github.com/aipmhub/aipm-chat-agents) | [助手索引与提交](https://github.com/aipmhub/aipm-chat-agents/blob/main/README.zh-CN.md)
 
 <br/>
 

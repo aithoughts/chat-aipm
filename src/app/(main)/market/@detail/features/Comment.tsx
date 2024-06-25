@@ -7,7 +7,7 @@ const Comment = memo<{ identifier: string }>(({ identifier }) => (
     categoryId="DIC_kwDOKON5YM4CZNRJ"
     id="lobehub"
     mapping="specific"
-    repo="lobehub/lobe-chat-agents"
+    repo="aipmhub/aipm-chat-agents"
     repoId="R_kgDOKON5YA"
     term={identifier}
   />
