@@ -1,31 +1,31 @@
 {
   "button": {
     "import": "Import Configuration",
-    "market": "Visit Market",
-    "start": "Start Now"
+    "market": "Explore the Marketplace",
+    "start": "Get Started"
   },
   "guide": {
     "agents": {
       "replaceBtn": "Replace Batch",
-      "title": "New Assistant Recommendations:"
+      "title": "Recommended Assistants:"
     },
-    "defaultMessage": "I am your personal intelligent assistant AiPMChat, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
+    "defaultMessage": "I'm your personal AI assistant, AiPMChat. How can I help you today?\nFor a more specialized or customized experience, click `+` to create your own assistant.",
     "qa": {
-      "q01": "What is LobeHub?",
+      "q01": "What is AiPMHub?",
       "q02": "What is AiPMChat?",
-      "q03": "Does AiPMChat have community support?",
-      "q04": "What functions does AiPMChat support?",
-      "q05": "How to deploy and use AiPMChat?",
-      "q06": "What is the pricing of AiPMChat?",
-      "q07": "Is AiPMChat free?",
-      "q08": "Is there a cloud service version?",
+      "q03": "Does AiPMChat offer community support?",
+      "q04": "What capabilities does AiPMChat provide?",
+      "q05": "How do I deploy and use AiPMChat?",
+      "q06": "What are the pricing options for AiPMChat?",
+      "q07": "Is AiPMChat free to use?",
+      "q08": "Is there a cloud-based service version?",
       "q09": "Does AiPMChat support local language models?",
       "q10": "Does AiPMChat support image recognition and generation?",
-      "q11": "Does AiPMChat support speech synthesis and speech recognition?",
-      "q12": "Does AiPMChat support a plugin system?",
-      "q13": "Is there a marketplace to obtain GPTs?",
+      "q11": "Does AiPMChat support speech synthesis and recognition?",
+      "q12": "Does AiPMChat have a plugin system?",
+      "q13": "Is there a marketplace where I can find GPTs?",
       "q14": "Does AiPMChat support multiple AI service providers?",
-      "q15": "What should I do if I encounter problems while using it?"
+      "q15": "What should I do if I encounter issues while using AiPMChat?"
     },
     "questions": {
       "moreBtn": "Learn More",
@@ -39,11 +39,11 @@
     }
   },
   "header": "Welcome",
-  "pickAgent": "Or choose from the following assistant templates",
-  "skip": "Skip Creation",
+  "pickAgent": "Or select from these pre-built assistant templates",
+  "skip": "Skip Assistant Creation",
   "slogan": {
-    "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
-    "desc2": "Create your first assistant and let's get started~",
-    "title": "Unlock the superpower of your brain"
+    "desc1": "Pioneering a new era of thinking and creation. Built for you, the Super Individual.",
+    "desc2": "Create your first assistant and let's begin!",
+    "title": "Unlock the Power of Your Mind"
   }
 }
