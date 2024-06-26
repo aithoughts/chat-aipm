@@ -9,8 +9,8 @@ export const LobeTogetherAI = LobeOpenAICompatibleFactory({
   baseURL: `${baseURL}/v1`,
   constructorOptions: {
     defaultHeaders: {
-      'HTTP-Referer': 'https://chat-preview.lobehub.com',
-      'X-Title': 'Lobe Chat',
+      'HTTP-Referer': 'https://chat-aipm.theforage.cn',
+      'X-Title': 'AiPM Chat',
     },
   },
   debug: {

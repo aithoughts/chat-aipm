@@ -6,8 +6,8 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-export const OFFICIAL_URL = 'https://chat-preview.lobehub.com/';
-export const OFFICIAL_SITE = 'https://lobehub.com/';
+export const OFFICIAL_URL = 'https://chat-aipm.theforage.cn/';
+export const OFFICIAL_SITE = 'https://theforage.cn/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
@@ -35,7 +35,7 @@ export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
-  'https://github.com/lobehub/lobe-chat/discussions/1284';
+  'https://github.com/aipmhub/aipm-chat/discussions/1284';
 
 export const AGENTS_INDEX_GITHUB = 'https://github.com/aipmhub/aipm-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');

@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude 系列 Tool Calling 评测
 description: >-
-  使用 LobeChat 测试 Anthropic Claude 系列模型（Claude 3.5 sonnet / Claude 3 Opus /
+  使用 AiPMChat 测试 Anthropic Claude 系列模型（Claude 3.5 sonnet / Claude 3 Opus /
   Claude 3 haiku） 的工具调用（Function Calling）能力，并展现评测结果
 tags:
   - Tools Calling
@@ -19,11 +19,11 @@ tags:
 
 测试指令：指令 ①
 
-<Video src="https://github.com/lobehub/lobe-chat/assets/28616219/42a6980c-ea2a-44fd-b61f-a7989827f5a5" />
+<Video src="https://github.com/aipmhub/aipm-chat/assets/28616219/42a6980c-ea2a-44fd-b61f-a7989827f5a5" />
 
 <Image
   alt="Claude 3.5 Sonnet 简单指令的 Tool Calling"
-  src="https://github.com/lobehub/lobe-chat/assets/28616219/71146b75-2c73-48c3-9688-1d8814d2a791"
+  src="https://github.com/aipmhub/aipm-chat/assets/28616219/71146b75-2c73-48c3-9688-1d8814d2a791"
 />
 
   <details>
@@ -151,13 +151,13 @@ tags:
 
 测试指令：指令 ②
 
-<Video src="https://github.com/lobehub/lobe-chat/assets/28616219/a9a40899-d5f3-4ef2-aa08-922751b05ca6" />
+<Video src="https://github.com/aipmhub/aipm-chat/assets/28616219/a9a40899-d5f3-4ef2-aa08-922751b05ca6" />
 
 从上述视频中可以看到， sonnet 虽然也支持流式 Tool Calling ，但是它表现出来的特征是在创建长句 tool calling 时会等待住（详见 Tool Calling 原始输出 `[chunk 40]` 和 `[chunk 41]` 中间的耗时）。所以相对来说会在 Tool Calling 的起始阶段有一个较长的等待时间。
 
 <Image
   alt="Claude 3.5 Sonnet 复杂指令的 Tool Calling"
-  src="https://github.com/lobehub/lobe-chat/assets/28616219/23e2d7e5-a6f3-4f4c-9c6a-5651f35a5910"
+  src="https://github.com/aipmhub/aipm-chat/assets/28616219/23e2d7e5-a6f3-4f4c-9c6a-5651f35a5910"
 />
 
   <details>

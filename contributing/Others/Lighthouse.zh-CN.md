@@ -10,7 +10,7 @@
 ## Welcome 欢迎页面
 
 > **Info**\
-> <https://chat-preview.lobehub.com/welcome>
+> <https://chat-aipm.theforage.cn/welcome>
 
 |                     Desktop                     |                     Mobile                     |
 | :---------------------------------------------: | :--------------------------------------------: |
@@ -20,7 +20,7 @@
 ## Chat 聊天页面
 
 > **Info**\
-> <https://chat-preview.lobehub.com/chat>
+> <https://chat-aipm.theforage.cn/chat>
 
 |                   Desktop                    |                   Mobile                    |
 | :------------------------------------------: | :-----------------------------------------: |
@@ -30,7 +30,7 @@
 ## Market 市场页面
 
 > **Info**\
-> <https://chat-preview.lobehub.com/market>
+> <https://chat-aipm.theforage.cn/market>
 
 |                    Desktop                     |                    Mobile                     |
 | :--------------------------------------------: | :-------------------------------------------: |
@@ -40,7 +40,7 @@
 ## Settings 设置页面
 
 > **Info**\
-> <https://chat-preview.lobehub.com/settings>
+> <https://chat-aipm.theforage.cn/settings>
 
 |                     Desktop                      |                     Mobile                      |
 | :----------------------------------------------: | :---------------------------------------------: |

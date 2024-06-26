@@ -56,7 +56,7 @@ describe('modelConfigSelectors', () => {
   });
 
   describe('isProviderFetchOnClient', () => {
-    // The next 4 case are base on the rules on https://github.com/lobehub/lobe-chat/pull/2753
+    // The next 4 case are base on the rules on https://github.com/aipmhub/aipm-chat/pull/2753
     it('client fetch should disabled on default', () => {
       const s = merge(initialSettingsState, {
         settings: {

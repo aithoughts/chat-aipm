@@ -1,4 +1,4 @@
-const config = require('@lobehub/lint').eslint;
+const config = require('@aipmorg/lint').eslint;
 
 config.extends.push('plugin:@next/next/recommended');
 

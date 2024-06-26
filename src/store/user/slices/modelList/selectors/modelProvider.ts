@@ -48,7 +48,7 @@ export const getDefaultModeProviderById = (provider: string) => (s: UserStore) =
 
 /**
  * get the default enabled models for a provider
- * it's a default enabled model list by Lobe Chat
+ * it's a default enabled model list by AiPM Chat
  * e.g. openai is ['gpt-3.5-turbo','gpt-4-turbo']
  */
 const getDefaultEnabledModelsById = (provider: string) => (s: UserStore) => {
@@ -106,7 +106,7 @@ const isModelEnabledFunctionCall = (id: string) => (s: UserStore) =>
   getModelCardById(id)(s)?.functionCall || false;
 
 // vision model white list, these models will change the content from string to array
-// refs: https://github.com/lobehub/lobe-chat/issues/790
+// refs: https://github.com/aipmhub/aipm-chat/issues/790
 const isModelEnabledVision = (id: string) => (s: UserStore) =>
   getModelCardById(id)(s)?.vision || id.includes('vision');
 

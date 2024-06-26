@@ -1,6 +1,6 @@
 # 代码风格与贡献指南
 
-欢迎来到 LobeChat 的代码风格与贡献指南。本指南将帮助您理解我们的代码规范和贡献流程，确保代码的一致性和项目的顺利进行。
+欢迎来到 AiPMChat 的代码风格与贡献指南。本指南将帮助您理解我们的代码规范和贡献流程，确保代码的一致性和项目的顺利进行。
 
 ## TOC
 
@@ -17,11 +17,11 @@
 
 ## 代码风格
 
-在 LobeChat 中，我们使用 `@lobehub/lint` 程序包来统一代码风格。该程序包内置了 `ESLint`、`Prettier`、`remarklint` 和 `stylelint` 的配置，以确保我们的 JavaScript、Markdown 和 CSS 文件遵循相同的编码标准。
+在 AiPMChat 中，我们使用 `@aipmorg/lint` 程序包来统一代码风格。该程序包内置了 `ESLint`、`Prettier`、`remarklint` 和 `stylelint` 的配置，以确保我们的 JavaScript、Markdown 和 CSS 文件遵循相同的编码标准。
 
 ### ESLint
 
-我们的项目使用 ESLint 来检查 JavaScript 代码中的问题。您可以在项目根目录下找到 `.eslintrc.js` 文件，其中包含了我们对 `@lobehub/lint` 的 ESLint 配置的扩展和自定义规则。
+我们的项目使用 ESLint 来检查 JavaScript 代码中的问题。您可以在项目根目录下找到 `.eslintrc.js` 文件，其中包含了我们对 `@aipmorg/lint` 的 ESLint 配置的扩展和自定义规则。
 
 为了与 Next.js 框架兼容，我们在配置中添加了 `plugin:@next/next/recommended`。此外，我们禁用了一些规则，以适应我们项目的特定需求。
 
@@ -29,7 +29,7 @@
 
 ### Prettier
 
-Prettier 负责代码格式化，以保证代码的一致性。您可以在 `.prettierrc.js` 中找到我们的 Prettier 配置，它是从 `@lobehub/lint` 导入的。
+Prettier 负责代码格式化，以保证代码的一致性。您可以在 `.prettierrc.js` 中找到我们的 Prettier 配置，它是从 `@aipmorg/lint` 导入的。
 
 在保存文件时，建议您配置您的编辑器以自动运行 Prettier，或者在提交前手动运行它。
 
@@ -39,13 +39,13 @@ Prettier 负责代码格式化，以保证代码的一致性。您可以在 `.pr
 
 ### stylelint
 
-我们使用 stylelint 来规范 CSS 代码的风格。在 `stylelint` 的配置文件中，我们基于 `@lobehub/lint` 的配置进行了一些自定义规则的调整。
+我们使用 stylelint 来规范 CSS 代码的风格。在 `stylelint` 的配置文件中，我们基于 `@aipmorg/lint` 的配置进行了一些自定义规则的调整。
 
 确保您的样式代码在提交前通过了 stylelint 的检查。
 
 ## 贡献流程
 
-LobeChat 采用 gitmoji 和 semantic release 作为我们的代码提交和发布流程。
+AiPMChat 采用 gitmoji 和 semantic release 作为我们的代码提交和发布流程。
 
 ### Gitmoji
 

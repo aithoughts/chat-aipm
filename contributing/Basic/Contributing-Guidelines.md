@@ -1,6 +1,6 @@
 # Code Style and Contribution Guidelines
 
-Welcome to the Code Style and Contribution Guidelines for LobeChat. This guide will help you understand our code standards and contribution process, ensuring code consistency and smooth project progression.
+Welcome to the Code Style and Contribution Guidelines for AiPMChat. This guide will help you understand our code standards and contribution process, ensuring code consistency and smooth project progression.
 
 ## TOC
 
@@ -17,17 +17,17 @@ Welcome to the Code Style and Contribution Guidelines for LobeChat. This guide w
 
 ## Code Style
 
-In LobeChat, we use the `@lobehub/lint` package to maintain a unified code style. This package incorporates configurations for `ESLint`, `Prettier`, `remarklint`, and `stylelint` to ensure that our JavaScript, Markdown, and CSS files adhere to the same coding standards.
+In AiPMChat, we use the `@aipmorg/lint` package to maintain a unified code style. This package incorporates configurations for `ESLint`, `Prettier`, `remarklint`, and `stylelint` to ensure that our JavaScript, Markdown, and CSS files adhere to the same coding standards.
 
 ### ESLint
 
-We use ESLint to check for issues in our JavaScript code. You can find the `.eslintrc.js` file in the project's root directory, which contains our extensions and custom rules for the ESLint configuration of `@lobehub/lint`.
+We use ESLint to check for issues in our JavaScript code. You can find the `.eslintrc.js` file in the project's root directory, which contains our extensions and custom rules for the ESLint configuration of `@aipmorg/lint`.
 
 To ensure your code aligns with the project's standards, run ESLint before committing your code.
 
 ### Prettier
 
-Prettier is responsible for code formatting to maintain consistency. Our Prettier configuration can be found in `.prettierrc.js`, imported from `@lobehub/lint`.
+Prettier is responsible for code formatting to maintain consistency. Our Prettier configuration can be found in `.prettierrc.js`, imported from `@aipmorg/lint`.
 
 It's recommended to configure your editor to run Prettier automatically upon saving files or manually run it before committing.
 
@@ -37,13 +37,13 @@ For Markdown files, we use remarklint to ensure consistent document formatting. 
 
 ### stylelint
 
-We utilize stylelint to standardize the style of our CSS code. In the configuration file for stylelint, we have made some custom rule adjustments based on `@lobehub/lint` configuration.
+We utilize stylelint to standardize the style of our CSS code. In the configuration file for stylelint, we have made some custom rule adjustments based on `@aipmorg/lint` configuration.
 
 Ensure that your style code passes stylelint checks before committing.
 
 ## Contribution Process
 
-LobeChat follows the gitmoji and semantic release as our code submission and release process.
+AiPMChat follows the gitmoji and semantic release as our code submission and release process.
 
 ### Gitmoji
 

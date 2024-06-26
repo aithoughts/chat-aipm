@@ -1,7 +1,7 @@
 export default [
   {
     dir: 'Basic',
-    title: '🤯 Basic',
+    title: '🌿 Basic',
   },
   {
     dir: 'Internationalization',
@@ -42,8 +42,8 @@ export default [
       },
       {
         links: {
-          cn: 'https://github.com/lobehub/lobe-chat-plugins/blob/main/README.zh-CN.md',
-          en: 'https://github.com/lobehub/lobe-chat-plugins',
+          cn: 'https://github.com/aipmhub/aipm-chat-plugins/blob/main/README.zh-CN.md',
+          en: 'https://github.com/aipmhub/aipm-chat-plugins',
         },
         titles: {
           cn: '插件索引与提交',
