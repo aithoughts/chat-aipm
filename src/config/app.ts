@@ -42,7 +42,7 @@ export const getAppConfig = () => {
 
       AGENTS_INDEX_URL: !!process.env.AGENTS_INDEX_URL
         ? process.env.AGENTS_INDEX_URL
-        : 'https://chat-agents.theforage.cn',
+        : 'https://chat-agents.lobehub.com',
 
       DEFAULT_AGENT_CONFIG: process.env.DEFAULT_AGENT_CONFIG || '',
       SYSTEM_AGENT: process.env.SYSTEM_AGENT,
