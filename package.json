@@ -23,7 +23,7 @@
     "url": "https://github.com/aipmhub/aipm-chat.git"
   },
   "license": "MIT",
-  "author": "LobeHub <i@lobehub.com>",
+  "author": "AiPMHub <nextprofessionalpower@gmail.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
