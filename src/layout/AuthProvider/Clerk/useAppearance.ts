@@ -102,9 +102,9 @@ export const useAppearance = () => {
     elements: styles,
     layout: {
       helpPageUrl: 'https://lobehub.com/docs',
-      privacyPageUrl: 'https://lobehub.com/privacy',
+      privacyPageUrl: 'https://lobehub.com/legal/privacy',
       socialButtonsVariant: 'blockButton',
-      termsPageUrl: 'https://lobehub.com/terms',
+      termsPageUrl: 'https://lobehub.com/legal/terms',
     },
     variables: {
       borderRadius: `${theme.borderRadius}px`,

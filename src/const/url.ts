@@ -28,9 +28,9 @@ export const BLOG = urlJoin(OFFICIAL_SITE, 'blog');
 
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = pkg.bugs.url;
-export const DISCORD = 'https://discord.gg/AYFPHvv2jT';
-export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
-export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
+export const DISCORD = 'https://discord.gg/sYB5zSyD';
+export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/legal/privacy');
+export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/legal/terms');
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
@@ -49,11 +49,11 @@ export const SESSION_CHAT_URL = (id: string = INBOX_SESSION_ID, mobile?: boolean
 export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`);
 
 export const LOBE_URL_IMPORT_NAME = 'settings';
-export const EMAIL_SUPPORT = 'support@lobehub.com';
-export const EMAIL_BUSINESS = 'hello@lobehub.com';
+export const EMAIL_SUPPORT = 'nextprofesssionalpower@gmail.com';
+export const EMAIL_BUSINESS = 'ai.flyingwheel@gmail.com';
 
-export const MEDIDUM = 'https://medium.com/@lobehub';
-export const X = 'https://x.com/lobehub';
+export const MEDIDUM = 'https://medium.com/@aipmhub';
+export const X = 'https://x.com/aipmhub';
 export const RELEASES_URL = urlJoin(GITHUB, 'releases');
 
 export const mailTo = (email: string) => `mailto:${email}`;
