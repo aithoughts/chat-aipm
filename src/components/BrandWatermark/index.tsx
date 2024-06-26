@@ -1,6 +1,6 @@
 'use client';
 
-import { LobeHub } from '@lobehub/ui/brand';
+// import { LobeHub } from '@lobehub/ui/brand';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
@@ -29,8 +29,9 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       {...rest}
     >
       <span>Powered by</span>
-      <Link className={styles.logoLink} href={'https://lobehub.com'} target={'_blank'}>
-        <LobeHub size={20} type={'text'} />
+      <Link className={styles.logoLink} href={'https://theforage.cn'} target={'_blank'}>
+        {/* <LobeHub size={20} type={'text'} /> */}
+        🌿AiPMHub
       </Link>
     </Flexbox>
   );
