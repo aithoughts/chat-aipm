@@ -11,8 +11,8 @@ export const PLGUIN_URL = 'https://chat-aipm.theforage.cn/settings/agent';
 export const AGENT_EN_URL = 'https://chat-agents.theforage.cn/index.json';
 export const AGENT_CN_URL = 'https://chat-agents.theforage.cn/index.zh-CN.json';
 export const AGENT_REPO = 'https://github.com/aipmhub/aipm-chat-agents';
-export const PLUGIN_EN_URL = 'https://chat-plugins.lobehub.com/index.json';
-export const PLUGIN_CN_URL = 'https://chat-plugins.lobehub.com/index.zh-CN.json';
+export const PLUGIN_EN_URL = 'https://chat-plugins.theforage.cn/index.json';
+export const PLUGIN_CN_URL = 'https://chat-plugins.theforage.cn/index.zh-CN.json';
 export const PLUGIN_REPO = 'https://github.com/aipmhub/aipm-chat-plugins';
 
 export const AGENT_SPLIT = '<!-- AGENT LIST -->';

@@ -32,7 +32,7 @@ export const DISCORD = 'https://discord.gg/sYB5zSyD';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/legal/privacy');
 export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/legal/terms');
 
-export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
+export const PLUGINS_INDEX_URL = 'https://chat-plugins.theforage.cn';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
   'https://github.com/aipmhub/aipm-chat/discussions/1284';
