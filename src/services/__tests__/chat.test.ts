@@ -1,4 +1,4 @@
-import { LobeChatPluginManifest } from '@lobehub/chat-plugin-sdk';
+import { LobeChatPluginManifest } from '@aipmorg/chat-plugin-sdk';
 import { act } from '@testing-library/react';
 import { merge } from 'lodash-es';
 import OpenAI from 'openai';

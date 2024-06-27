@@ -1,4 +1,4 @@
-import { PluginRequestPayload, createHeadersWithPluginSettings } from '@lobehub/chat-plugin-sdk';
+import { PluginRequestPayload, createHeadersWithPluginSettings } from '@aipmorg/chat-plugin-sdk';
 import { produce } from 'immer';
 import { merge } from 'lodash-es';
 

@@ -1,5 +1,5 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix  */
-import { LobeChatPluginManifest } from '@lobehub/chat-plugin-sdk';
+import { LobeChatPluginManifest } from '@aipmorg/chat-plugin-sdk';
 import { relations } from 'drizzle-orm';
 import {
   boolean,

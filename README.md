@@ -533,8 +533,8 @@ Plugins provide a means to extend the [Function Calling][docs-functionc-call] ca
 
 - [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for AiPMChat. It accesses index.json from this repository to display a list of available plugins for AiPMChat to the user.
 - [chat-plugin-template][chat-plugin-template]: This is the plugin template for AiPMChat plugin development.
-- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The AiPMChat Plugin SDK assists you in creating exceptional chat plugins for AiPM Chat.
-- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The AiPMChat Plugins Gateway is a backend service that provides a gateway for AiPMChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
+- [@aipmorg/chat-plugin-sdk][chat-plugin-sdk]: The AiPMChat Plugin SDK assists you in creating exceptional chat plugins for AiPM Chat.
+- [@aipmorg/chat-plugins-gateway][chat-plugins-gateway]: The AiPMChat Plugins Gateway is a backend service that provides a gateway for AiPMChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
 
 > \[!NOTE]
 >
@@ -676,9 +676,9 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [chat-desktop-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/desktop/chat_preview_lobehub_com_chat.html
 [chat-mobile]: https://raw.githubusercontent.com/lobehub/lobe-chat/lighthouse/lighthouse/chat/mobile/pagespeed.svg
 [chat-mobile-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/mobile/chat_preview_lobehub_com_chat.html
-[chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
+[chat-plugin-sdk]: https://github.com/aipmhub/chat-plugin-sdk
 [chat-plugin-template]: https://github.com/lobehub/chat-plugin-template
-[chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
+[chat-plugins-gateway]: https://github.com/aipmhub/chat-plugins-gateway
 [codecov-link]: https://codecov.io/gh/lobehub/lobe-chat
 [codecov-shield]: https://img.shields.io/codecov/c/github/lobehub/lobe-chat?labelColor=black&style=flat-square&logo=codecov&logoColor=white
 [codespaces-link]: https://codespaces.new/lobehub/lobe-chat

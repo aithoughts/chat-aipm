@@ -1,4 +1,4 @@
-import { LobeChatPluginManifest } from '@lobehub/chat-plugin-sdk';
+import { LobeChatPluginManifest } from '@aipmorg/chat-plugin-sdk';
 
 import { lambdaClient } from '@/libs/trpc/client';
 import { LobeTool } from '@/types/tool';

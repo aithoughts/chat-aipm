@@ -1,5 +1,5 @@
-import { PluginRequestPayload } from '@lobehub/chat-plugin-sdk';
-import { createGatewayOnEdgeRuntime } from '@lobehub/chat-plugins-gateway';
+import { PluginRequestPayload } from '@aipmorg/chat-plugin-sdk';
+import { createGatewayOnEdgeRuntime } from '@aipmorg/chat-plugins-gateway';
 
 import { createErrorResponse } from '@/app/api/errorResponse';
 import { getJWTPayload } from '@/app/api/middleware/auth/utils';

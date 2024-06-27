@@ -556,8 +556,8 @@ API Key 是使用 AiPMChat 进行大语言模型会话的必要信息，本节�
 
 - [lobe-chat-plugins][lobe-chat-plugins]：插件索引从该仓库的 index.json 中获取插件列表并显示给用户。
 - [chat-plugin-template][chat-plugin-template]：插件开发模版，你可以通过项目模版快速新建插件项目。
-- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]：插件 SDK 可帮助您创建出色的 AiPM Chat 插件。
-- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]：插件网关是一个后端服务，作为 AiPMChat 插件的网关。我们使用 Vercel 部署此服务。主要的 API POST /api/v1/runner 被部署为 Edge Function。
+- [@aipmorg/chat-plugin-sdk][chat-plugin-sdk]：插件 SDK 可帮助您创建出色的 AiPM Chat 插件。
+- [@aipmorg/chat-plugins-gateway][chat-plugins-gateway]：插件网关是一个后端服务，作为 AiPMChat 插件的网关。我们使用 Vercel 部署此服务。主要的 API POST /api/v1/runner 被部署为 Edge Function。
 
 > \[!NOTE]
 >
@@ -698,9 +698,9 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [chat-desktop-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/desktop/chat_preview_lobehub_com_chat.html
 [chat-mobile]: https://raw.githubusercontent.com/lobehub/lobe-chat/lighthouse/lighthouse/chat/mobile/pagespeed.svg
 [chat-mobile-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/mobile/chat_preview_lobehub_com_chat.html
-[chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
+[chat-plugin-sdk]: https://github.com/aipmhub/chat-plugin-sdk
 [chat-plugin-template]: https://github.com/lobehub/chat-plugin-template
-[chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
+[chat-plugins-gateway]: https://github.com/aipmhub/chat-plugins-gateway
 [codecov-link]: https://codecov.io/gh/lobehub/lobe-chat
 [codecov-shield]: https://img.shields.io/codecov/c/github/lobehub/lobe-chat?labelColor=black&style=flat-square&logo=codecov&logoColor=white
 [codespaces-link]: https://codespaces.new/lobehub/lobe-chat

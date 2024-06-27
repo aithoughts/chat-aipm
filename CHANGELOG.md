@@ -14632,7 +14632,7 @@
 
 #### ♻ Code Refactoring
 
-- **misc**: Refactor plugin api with @lobehub/chat-plugins-gateway.
+- **misc**: Refactor plugin api with @aipmorg/chat-plugins-gateway.
 
 <br />
 
@@ -14641,7 +14641,7 @@
 
 #### Code refactoring
 
-- **misc**: Refactor plugin api with @lobehub/chat-plugins-gateway, closes [#100](https://github.com/aipmhub/aipm-chat/issues/100) ([b88d0db](https://github.com/aipmhub/aipm-chat/commit/b88d0db))
+- **misc**: Refactor plugin api with @aipmorg/chat-plugins-gateway, closes [#100](https://github.com/aipmhub/aipm-chat/issues/100) ([b88d0db](https://github.com/aipmhub/aipm-chat/commit/b88d0db))
 
 </details>
 

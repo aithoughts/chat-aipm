@@ -1,4 +1,4 @@
-import { LobeChatPluginsMarketIndex } from '@lobehub/chat-plugin-sdk';
+import { LobeChatPluginsMarketIndex } from '@aipmorg/chat-plugin-sdk';
 import { t } from 'i18next';
 import { produce } from 'immer';
 import useSWR, { SWRResponse, mutate } from 'swr';

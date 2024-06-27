@@ -1,4 +1,4 @@
-import { PluginChannel } from '@lobehub/chat-plugin-sdk/client';
+import { PluginChannel } from '@aipmorg/chat-plugin-sdk/client';
 import { useEffect } from 'react';
 
 export const useOnPluginSettingsUpdate = (callback: (settings: any) => void) => {

@@ -1,4 +1,4 @@
-import { IPluginErrorType } from '@lobehub/chat-plugin-sdk';
+import { IPluginErrorType } from '@aipmorg/chat-plugin-sdk';
 
 import { ILobeAgentRuntimeErrorType } from '@/libs/agent-runtime';
 import { ErrorType } from '@/types/fetch';

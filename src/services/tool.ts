@@ -2,7 +2,7 @@ import {
   LobeChatPluginManifest,
   LobeChatPluginsMarketIndex,
   pluginManifestSchema,
-} from '@lobehub/chat-plugin-sdk';
+} from '@aipmorg/chat-plugin-sdk';
 
 import { globalHelpers } from '@/store/user/helpers';
 import { OpenAIPluginManifest } from '@/types/openai/plugin';
@@ -84,7 +84,7 @@ class ToolService {
       const openapiJson = await this._fetchJSON(parser.data.openapi, useProxy);
 
       try {
-        const { OpenAPIConvertor } = await import('@lobehub/chat-plugin-sdk/openapi');
+        const { OpenAPIConvertor } = await import('@aipmorg/chat-plugin-sdk/openapi');
 
         const convertor = new OpenAPIConvertor(openapiJson);
         const openAPIs = await convertor.convertOpenAPIToPluginSchema();

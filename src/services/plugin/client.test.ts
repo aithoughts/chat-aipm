@@ -1,4 +1,4 @@
-import { LobeChatPluginManifest } from '@lobehub/chat-plugin-sdk';
+import { LobeChatPluginManifest } from '@aipmorg/chat-plugin-sdk';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { PluginModel } from '@/database/client/models/plugin';

@@ -1,4 +1,4 @@
-import { IPluginErrorType, PluginErrorType } from '@lobehub/chat-plugin-sdk';
+import { IPluginErrorType, PluginErrorType } from '@aipmorg/chat-plugin-sdk';
 import type { AlertProps } from '@lobehub/ui';
 import { Skeleton } from 'antd';
 import dynamic from 'next/dynamic';

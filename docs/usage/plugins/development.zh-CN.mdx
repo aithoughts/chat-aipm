@@ -195,7 +195,7 @@ $ npm run dev
 
 #### API 实现
 
-针对 Edge Runtime ，我们在 `@lobehub/chat-plugin-sdk` 提供了 `createErrorResponse` 方法，用于快速返回错误响应。目前提供的错误类型详见：[PluginErrorType][plugin-error-type-url]。
+针对 Edge Runtime ，我们在 `@aipmorg/chat-plugin-sdk` 提供了 `createErrorResponse` 方法，用于快速返回错误响应。目前提供的错误类型详见：[PluginErrorType][plugin-error-type-url]。
 
 模板中的 clothes 接口实现如下：
 
@@ -226,7 +226,7 @@ export default async (req: Request) => {
 针对自定义插件，插件请求需要发送给本地服务， 因此通过在 manifest 中指定网关 ([http://localhost:3400/api/gateway)，AiPMChat](<http://localhost:3400/api/gateway)，AiPMChat>) 将会直接请求该地址，然后只需要在该地址下创建对应的网关即可。
 
 ```ts
-import { createLobeChatPluginGateway } from '@lobehub/chat-plugins-gateway';
+import { createLobeChatPluginGateway } from '@aipmorg/chat-plugins-gateway';
 
 export const config = {
   runtime: 'edge',
@@ -235,7 +235,7 @@ export const config = {
 export default createLobeChatPluginGateway();
 ```
 
-[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) 包含了 AiPMChat 中插件网关的[实现](https://github.com/aipmhub/aipm-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 AiPMChat 访问到本地的插件服务。
+[`@aipmorg/chat-plugins-gateway`](https://github.com/aipmhub/chat-plugins-gateway) 包含了 AiPMChat 中插件网关的[实现](https://github.com/aipmhub/aipm-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 AiPMChat 访问到本地的插件服务。
 
 ### 插件 UI 界面
 
@@ -267,10 +267,10 @@ AiPMChat 通过 `iframe` 实现插件 ui 的加载，使用 `postMessage` 实现
 
 在我们提供的模板中使用了 React + Next.js + [antd](https://ant.design/) 作为前端界面框架，你可以在 [`src/pages/index.tsx`](https://github.com/lobehub/chat-plugin-template/blob/main/src/pages/index.tsx) 中找到用户界面的实现。
 
-其中关于插件通信，我们在 [`@lobehub/chat-plugin-sdk`](https://github.com/lobehub/chat-plugin-sdk) 提供了相关方法，用于简化插件与 AiPMChat 的通信。你可以通过 `fetchPluginMessage` 方法主动向 AiPMChat 获取当前消息的数据。关于该方法的详细介绍，参见：[fetchPluginMessage][fetch-plugin-message-url]。
+其中关于插件通信，我们在 [`@aipmorg/chat-plugin-sdk`](https://github.com/aipmhub/chat-plugin-sdk) 提供了相关方法，用于简化插件与 AiPMChat 的通信。你可以通过 `fetchPluginMessage` 方法主动向 AiPMChat 获取当前消息的数据。关于该方法的详细介绍，参见：[fetchPluginMessage][fetch-plugin-message-url]。
 
 ```tsx
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
+import { fetchPluginMessage } from '@aipmorg/chat-plugin-sdk';
 import { memo, useEffect, useState } from 'react';
 
 import { ResponseData } from '@/type';
@@ -311,8 +311,8 @@ export default Render;
 
 - **📘 Pluging SDK 文档**: [https://chat-plugin-sdk.lobehub.com](https://chat-plugin-sdk.lobehub.com)
 - **🚀 chat-plugin-template**: [https://github.com/lobehub/chat-plugin-template](https://github.com/lobehub/chat-plugin-template)
-- **🧩 chat-plugin-sdk**: [https://github.com/lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk)
-- **🚪 chat-plugin-gateway**: [https://github.com/lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway)
+- **🧩 chat-plugin-sdk**: [https://github.com/aipmhub/chat-plugin-sdk](https://github.com/aipmhub/chat-plugin-sdk)
+- **🚪 chat-plugin-gateway**: [https://github.com/aipmhub/chat-plugins-gateway](https://github.com/aipmhub/chat-plugins-gateway)
 - **🏪 lobe-chat-plugins**: [https://github.com/aipmhub/aipm-chat-plugins](https://github.com/aipmhub/aipm-chat-plugins)
 
 [fetch-plugin-message-url]: https://github.com/lobehub/chat-plugin-template
