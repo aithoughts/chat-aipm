@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar, MobileNavBarTitle } from '@lobehub/ui';
+import { MobileNavBar, MobileNavBarTitle } from '@aipmui/ui';
 import { Tag } from 'antd';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';

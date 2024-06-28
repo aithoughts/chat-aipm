@@ -1,5 +1,5 @@
-import { Avatar, ChatHeaderTitle, Markdown } from '@lobehub/ui';
-// import { AiPMChat } from '@lobehub/ui/aipmorg';
+import { Avatar, ChatHeaderTitle, Markdown } from '@aipmui/ui';
+// import { AiPMChat } from '@aipmui/ui/aipmorg';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';

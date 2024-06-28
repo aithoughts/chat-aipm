@@ -1,5 +1,5 @@
-import { GridShowcase } from '@lobehub/ui';
-// import { AiPMHub } from '@lobehub/ui/aipmorg';
+import { GridShowcase } from '@aipmui/ui';
+// import { AiPMHub } from '@aipmui/ui/aipmorg';
 import { PropsWithChildren } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
@@ -18,7 +18,7 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
         style={{ overflow: 'hidden', position: 'relative' }}
         width={'100%'}
       >
-        {/* <LobeHub size={36} style={{ alignSelf: 'flex-start' }} type={'text'} /> */}
+        {/* <AiPMHub size={36} style={{ alignSelf: 'flex-start' }} type={'text'} /> */}
         🌿AiPMHub
         <GridShowcase
           innerProps={{ gap: 24 }}

@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@aipmui/ui';
 import { Badge } from 'antd';
 import { createStyles } from 'antd-style';
 import { isNumber } from 'lodash-es';

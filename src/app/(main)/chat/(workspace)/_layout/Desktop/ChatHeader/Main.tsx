@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Avatar, ChatHeaderTitle } from '@lobehub/ui';
+import { ActionIcon, Avatar, ChatHeaderTitle } from '@aipmui/ui';
 import { Skeleton } from 'antd';
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { Suspense, memo } from 'react';

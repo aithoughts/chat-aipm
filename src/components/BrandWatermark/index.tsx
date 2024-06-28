@@ -1,6 +1,6 @@
 'use client';
 
-// import { AiPMHub } from '@lobehub/ui/aipmorg';
+// import { AiPMHub } from '@aipmui/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
@@ -30,7 +30,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
     >
       <span>Powered by</span>
       <Link className={styles.logoLink} href={'https://theforage.cn'} target={'_blank'}>
-        {/* <LobeHub size={20} type={'text'} /> */}
+        {/* <AiPMHub size={20} type={'text'} /> */}
         🌿AiPMHub
       </Link>
     </Flexbox>
