@@ -4,7 +4,7 @@ import {
   findCustomThemeName,
   neutralColors,
   neutralColorsSwatches,
-} from '@lobehub/ui';
+} from '@aipmui/ui';
 import { memo } from 'react';
 
 import { useUserStore } from '@/store/user';

@@ -1,5 +1,5 @@
-import { GridShowcase } from '@lobehub/ui';
-// import { LobeHub } from '@lobehub/ui/brand';
+import { GridShowcase } from '@aipmui/ui';
+// import { AiPMHub } from '@aipmui/ui/aipmorg';
 import { PropsWithChildren } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

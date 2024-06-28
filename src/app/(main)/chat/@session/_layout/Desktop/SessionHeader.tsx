@@ -1,7 +1,7 @@
 'use client';
 
-import { ActionIcon } from '@lobehub/ui';
-// import { LobeChat } from '@lobehub/ui/brand';
+import { ActionIcon } from '@aipmui/ui';
+// import { AiPMChat } from '@aipmui/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import { MessageSquarePlus } from 'lucide-react';
 import { memo } from 'react';

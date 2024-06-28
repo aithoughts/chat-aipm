@@ -1,6 +1,6 @@
 'use client';
 
-// import { LobeHub } from '@lobehub/ui/brand';
+// import { AiPMHub } from '@aipmui/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';

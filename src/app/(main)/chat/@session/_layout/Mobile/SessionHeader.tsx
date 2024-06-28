@@ -1,7 +1,7 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@lobehub/ui';
-// import { LobeChat } from '@lobehub/ui/brand';
+import { ActionIcon, MobileNavBar } from '@aipmui/ui';
+// import { AiPMChat } from '@aipmui/ui/aipmorg';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';

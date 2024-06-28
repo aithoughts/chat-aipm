@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileChatInputArea, MobileChatSendButton } from '@lobehub/ui';
+import { MobileChatInputArea, MobileChatSendButton } from '@aipmui/ui';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
