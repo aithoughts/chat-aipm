@@ -53,7 +53,7 @@
     "502": "Xin lỗi, máy chủ có vẻ lạc đường, tạm thời không thể cung cấp dịch vụ, vui lòng thử lại sau",
     "503": "Xin lỗi, máy chủ hiện không thể xử lý yêu cầu của bạn, có thể do quá tải hoặc đang bảo trì, vui lòng thử lại sau",
     "504": "Xin lỗi, máy chủ không đợi được phản hồi từ máy chủ upstream, vui lòng thử lại sau",
-    "AgentRuntimeError": "Lobe mô hình ngôn ngữ thực thi gặp lỗi, vui lòng kiểm tra và thử lại dựa trên thông tin dưới đây",
+    "AgentRuntimeError": "AiPMmô hình ngôn ngữ thực thi gặp lỗi, vui lòng kiểm tra và thử lại dựa trên thông tin dưới đây",
     "InvalidAccessCode": "Mật khẩu truy cập không hợp lệ hoặc trống, vui lòng nhập mật khẩu truy cập đúng hoặc thêm Khóa API tùy chỉnh",
     "InvalidBedrockCredentials": "Xác thực Bedrock không thành công, vui lòng kiểm tra AccessKeyId/SecretAccessKey và thử lại",
     "InvalidClerkUser": "Xin lỗi, bạn chưa đăng nhập. Vui lòng đăng nhập hoặc đăng ký tài khoản trước khi tiếp tục.",

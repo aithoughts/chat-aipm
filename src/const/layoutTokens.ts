@@ -1,4 +1,4 @@
-import type { FormProps } from '@aipmui/ui';
+import type { FormProps } from '@lobehub/ui';
 
 export const HEADER_HEIGHT = 64;
 export const MOBILE_NABBAR_HEIGHT = 44;

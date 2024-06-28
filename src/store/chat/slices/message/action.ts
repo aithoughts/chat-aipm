@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix, typescript-sort-keys/interface */
 // Disable the auto sort key eslint rule to make the code more logic and readable
-import { copyToClipboard } from '@aipmui/ui';
+import { copyToClipboard } from '@lobehub/ui';
 import isEqual from 'fast-deep-equal';
 import { produce } from 'immer';
 import { template } from 'lodash-es';

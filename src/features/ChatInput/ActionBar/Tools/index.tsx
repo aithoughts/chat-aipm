@@ -1,4 +1,4 @@
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@lobehub/ui';
 import { Blocks, LucideLoader2 } from 'lucide-react';
 import { Suspense, memo } from 'react';
 import { useTranslation } from 'react-i18next';

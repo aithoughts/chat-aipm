@@ -1,4 +1,4 @@
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@lobehub/ui';
 import { Book, Github } from 'lucide-react';
 import Link from 'next/link';
 import { memo } from 'react';

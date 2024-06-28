@@ -1,4 +1,4 @@
-import { ImageGallery } from '@aipmui/ui';
+import { ImageGallery } from '@lobehub/ui';
 import { useResponsive } from 'antd-style';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';

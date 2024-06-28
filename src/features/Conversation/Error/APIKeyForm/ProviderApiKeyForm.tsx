@@ -1,4 +1,4 @@
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@lobehub/ui';
 import { Button, Input } from 'antd';
 import { Network } from 'lucide-react';
 import { ReactNode, memo, useState } from 'react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, ItemGroup, SliderWithInput } from '@aipmui/ui';
+import { Form, ItemGroup, SliderWithInput } from '@lobehub/ui';
 import { Switch } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

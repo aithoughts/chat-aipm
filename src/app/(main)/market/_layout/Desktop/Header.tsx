@@ -1,7 +1,7 @@
 'use client';
 
-import { ChatHeader } from '@aipmui/ui';
-// import { AiPMChat } from '@aipmui/ui/aipmorg';
+import { ChatHeader } from '@lobehub/ui';
+// import { AiPMChat } from '@lobehub/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 

@@ -1,4 +1,4 @@
-import { ActionIconGroup } from '@aipmui/ui';
+import { ActionIconGroup } from '@lobehub/ui';
 import { memo } from 'react';
 
 import { useChatStore } from '@/store/chat';

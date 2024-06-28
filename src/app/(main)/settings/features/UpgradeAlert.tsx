@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert } from '@aipmui/ui';
+import { Alert } from '@lobehub/ui';
 import { Button } from 'antd';
 import Link from 'next/link';
 import { memo } from 'react';

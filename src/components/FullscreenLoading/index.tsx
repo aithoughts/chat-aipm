@@ -1,5 +1,5 @@
-import { Icon } from '@aipmui/ui';
-// import { AiPMChat } from '@aipmui/ui/aipmorg';
+import { Icon } from '@lobehub/ui';
+// import { AiPMChat } from '@lobehub/ui/aipmorg';
 import { Loader2 } from 'lucide-react';
 import { memo } from 'react';
 import { Center, Flexbox } from 'react-layout-kit';

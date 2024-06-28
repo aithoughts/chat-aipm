@@ -53,7 +53,7 @@
     "502": "Üzgünüm, sunucu kayboldu ve geçici olarak hizmet veremiyor. Lütfen daha sonra tekrar deneyin.",
     "503": "Üzgünüm, sunucu şu anda isteğinizi işleyemiyor, muhtemelen aşırı yüklenme veya bakım nedeniyle. Lütfen daha sonra tekrar deneyin.",
     "504": "Üzgünüm, sunucu yukarı akış sunucusundan bir yanıt alamadı. Lütfen daha sonra tekrar deneyin.",
-    "AgentRuntimeError": "Lobe dil modeli çalışma zamanı hatası, lütfen aşağıdaki bilgilere göre sorunu gidermeye çalışın veya tekrar deneyin",
+    "AgentRuntimeError": "AiPMdil modeli çalışma zamanı hatası, lütfen aşağıdaki bilgilere göre sorunu gidermeye çalışın veya tekrar deneyin",
     "InvalidAccessCode": "Geçersiz Erişim Kodu: Geçersiz veya boş bir şifre girdiniz. Lütfen doğru erişim şifresini girin veya özel API Anahtarı ekleyin.",
     "InvalidBedrockCredentials": "Bedrock kimlik doğrulaması geçersiz, lütfen AccessKeyId/SecretAccessKey bilgilerinizi kontrol edip tekrar deneyin",
     "InvalidClerkUser": "Üzgünüz, şu anda giriş yapmadınız. Lütfen işlemlere devam etmeden önce giriş yapın veya hesap oluşturun",

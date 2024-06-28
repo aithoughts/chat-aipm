@@ -1,6 +1,6 @@
 'use client';
 
-import { Avatar, Icon, Tag } from '@aipmui/ui';
+import { Avatar, Icon, Tag } from '@lobehub/ui';
 import type { MenuProps } from 'antd';
 import { Dropdown } from 'antd';
 import isEqual from 'fast-deep-equal';

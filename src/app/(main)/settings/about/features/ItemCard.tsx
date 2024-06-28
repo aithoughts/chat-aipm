@@ -1,4 +1,4 @@
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { LucideIcon } from 'lucide-react';
 import Link from 'next/link';

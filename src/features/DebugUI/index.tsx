@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@lobehub/ui';
 import { App, FloatButton, Spin } from 'antd';
 import { DatabaseIcon, Loader2 } from 'lucide-react';
 import { memo, useState } from 'react';

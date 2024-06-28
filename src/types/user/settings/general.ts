@@ -1,4 +1,4 @@
-import type { NeutralColors, PrimaryColors } from '@aipmui/ui';
+import type { NeutralColors, PrimaryColors } from '@lobehub/ui';
 import type { ThemeMode } from 'antd-style';
 
 import { LocaleMode } from '@/types/locale';

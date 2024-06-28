@@ -53,7 +53,7 @@
     "502": "Sorry, de server lijkt de weg kwijt te zijn en kan tijdelijk geen service verlenen. Probeer het later opnieuw",
     "503": "Sorry, de server kan uw verzoek momenteel niet verwerken vanwege overbelasting of onderhoud. Probeer het later opnieuw",
     "504": "Sorry, de server heeft geen reactie ontvangen van de upstream server. Probeer het later opnieuw",
-    "AgentRuntimeError": "Lobe language model runtime execution error, please troubleshoot or retry based on the following information",
+    "AgentRuntimeError": "AiPMlanguage model runtime execution error, please troubleshoot or retry based on the following information",
     "InvalidAccessCode": "Ongeldige toegangscode: het wachtwoord is onjuist of leeg. Voer de juiste toegangscode in of voeg een aangepaste API-sleutel toe.",
     "InvalidBedrockCredentials": "Bedrock authentication failed, please check AccessKeyId/SecretAccessKey and retry",
     "InvalidClerkUser": "Sorry, you are not currently logged in. Please log in or register an account to continue.",

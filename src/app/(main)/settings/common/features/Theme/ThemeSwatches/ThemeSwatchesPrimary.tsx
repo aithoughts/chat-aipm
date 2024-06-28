@@ -4,7 +4,7 @@ import {
   findCustomThemeName,
   primaryColors,
   primaryColorsSwatches,
-} from '@aipmui/ui';
+} from '@lobehub/ui';
 import { memo } from 'react';
 
 import { useUserStore } from '@/store/user';

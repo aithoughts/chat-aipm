@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@lobehub/ui';
 import { Button, Result, Table } from 'antd';
 import { CheckCircle } from 'lucide-react';
 import React, { memo } from 'react';

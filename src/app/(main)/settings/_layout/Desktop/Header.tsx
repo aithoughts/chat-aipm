@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, ChatHeader, ChatHeaderTitle } from '@aipmui/ui';
+import { ActionIcon, ChatHeader, ChatHeaderTitle } from '@lobehub/ui';
 import { Drawer, type DrawerProps } from 'antd';
 import { createStyles } from 'antd-style';
 import { Menu } from 'lucide-react';

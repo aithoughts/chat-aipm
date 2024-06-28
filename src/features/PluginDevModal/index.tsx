@@ -1,4 +1,4 @@
-import { Alert, Icon, Modal, Tooltip } from '@aipmui/ui';
+import { Alert, Icon, Modal, Tooltip } from '@lobehub/ui';
 import { App, Button, Form, Popconfirm, Segmented } from 'antd';
 import { useResponsive } from 'antd-style';
 import { MoveUpRight } from 'lucide-react';

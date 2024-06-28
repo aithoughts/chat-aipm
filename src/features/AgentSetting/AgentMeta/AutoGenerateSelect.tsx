@@ -1,4 +1,4 @@
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@lobehub/ui';
 import { Select, SelectProps } from 'antd';
 import { useTheme } from 'antd-style';
 import { isString } from 'lodash-es';

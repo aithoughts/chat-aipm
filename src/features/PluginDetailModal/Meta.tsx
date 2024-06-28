@@ -1,4 +1,4 @@
-import { Avatar, Tag } from '@aipmui/ui';
+import { Avatar, Tag } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { startCase } from 'lodash-es';

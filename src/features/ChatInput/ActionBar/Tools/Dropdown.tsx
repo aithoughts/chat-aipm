@@ -1,4 +1,4 @@
-import { Avatar, Icon } from '@aipmui/ui';
+import { Avatar, Icon } from '@lobehub/ui';
 import { Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import type { ItemType } from 'antd/es/menu/interface';

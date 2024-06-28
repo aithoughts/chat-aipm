@@ -1,6 +1,6 @@
 'use client';
 
-import { DraggablePanelBody } from '@aipmui/ui';
+import { DraggablePanelBody } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { PropsWithChildren, memo } from 'react';
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { Modal } from '@aipmui/ui';
+import { Modal } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { useRouter } from 'next/navigation';
 import { PropsWithChildren, memo, useState } from 'react';

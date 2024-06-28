@@ -9,7 +9,7 @@ export enum LobeSessionType {
 }
 
 /**
- * Lobe Agent
+ * AiPMAgent
  */
 export interface LobeAgentSession {
   config: LobeAgentConfig;

@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid } from '@aipmui/ui';
+import { Grid } from '@lobehub/ui';
 import { FC, memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

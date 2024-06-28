@@ -1,6 +1,6 @@
 'use client';
 
-import { EmptyCard } from '@aipmui/ui';
+import { EmptyCard } from '@lobehub/ui';
 import { useThemeMode } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import React, { memo, useCallback, useMemo, useRef } from 'react';

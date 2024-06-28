@@ -1,4 +1,4 @@
-import { Avatar } from '@aipmui/ui';
+import { Avatar } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { ReactNode, memo } from 'react';
 import { Center, CenterProps, Flexbox } from 'react-layout-kit';

@@ -1,4 +1,4 @@
-import { Icon, IconProps } from '@aipmui/ui';
+import { Icon, IconProps } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { ChevronRight } from 'lucide-react';
 import { ReactNode, memo } from 'react';

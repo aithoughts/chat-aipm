@@ -1,5 +1,5 @@
 import { PluginSchema } from '@aipmorg/chat-plugin-sdk';
-import { Form, Markdown } from '@aipmui/ui';
+import { Form, Markdown } from '@lobehub/ui';
 import { Form as AForm } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

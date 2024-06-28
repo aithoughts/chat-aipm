@@ -1,4 +1,4 @@
-import { ChatHeader } from '@aipmui/ui';
+import { ChatHeader } from '@lobehub/ui';
 
 import HeaderAction from './HeaderAction';
 import Main from './Main';

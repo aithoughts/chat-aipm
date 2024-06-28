@@ -1,5 +1,5 @@
-import { GridShowcase } from '@aipmui/ui';
-// import { AiPMHub } from '@aipmui/ui/aipmorg';
+import { GridShowcase } from '@lobehub/ui';
+// import { AiPMHub } from '@lobehub/ui/aipmorg';
 import { PropsWithChildren } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

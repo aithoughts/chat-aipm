@@ -1,4 +1,4 @@
-import { ImageGallery } from '@aipmui/ui';
+import { ImageGallery } from '@lobehub/ui';
 import { memo } from 'react';
 
 import GalleyGrid from '@/components/GalleyGrid';

@@ -1,4 +1,4 @@
-import { Modal } from '@aipmui/ui';
+import { Modal } from '@lobehub/ui';
 import { Segmented } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

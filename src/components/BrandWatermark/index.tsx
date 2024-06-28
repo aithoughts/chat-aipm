@@ -1,6 +1,6 @@
 'use client';
 
-// import { AiPMHub } from '@aipmui/ui/aipmorg';
+// import { AiPMHub } from '@lobehub/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';

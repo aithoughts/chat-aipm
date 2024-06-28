@@ -1,4 +1,4 @@
-import { Markdown } from '@aipmui/ui';
+import { Markdown } from '@lobehub/ui';
 import { memo } from 'react';
 
 import { useUserStore } from '@/store/user';
