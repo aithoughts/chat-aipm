@@ -1,5 +1,5 @@
-import { Avatar, ChatHeaderTitle, Markdown } from '@aipmui/ui';
-// import { AiPMChat } from '@aipmui/ui/aipmorg';
+import { Avatar, ChatHeaderTitle, Markdown } from '@aipmorg/ui';
+import { AiPMChat } from '@aipmorg/ui/aipmorg';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
@@ -63,8 +63,8 @@ const Preview = memo<FieldType & { title?: string }>(
             <ChatList />
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
-                {/* <AiPMChat type={'combine'} /> */}
-                🌿AiPMChat
+                <AiPMChat type={'combine'} />
+                {/* 🌿AiPMChat */}
                 <div className={styles.url}>{pkg.homepage}</div>
               </Flexbox>
             ) : (

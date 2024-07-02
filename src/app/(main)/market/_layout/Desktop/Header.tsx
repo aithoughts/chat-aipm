@@ -1,7 +1,7 @@
 'use client';
 
-import { ChatHeader } from '@aipmui/ui';
-// import { AiPMChat } from '@aipmui/ui/aipmorg';
+import { ChatHeader } from '@aipmorg/ui';
+import { AiPMChat } from '@aipmorg/ui/aipmorg';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 
@@ -15,12 +15,12 @@ export const useStyles = createStyles(({ css, token }) => ({
 }));
 
 const Header = memo(() => {
-  // const { styles } = useStyles();
+  const { styles } = useStyles();
 
   return (
     <ChatHeader
-      // left={<AiPMChat className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
-      left={'🌿AiPMChat'}
+      left={<AiPMChat className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
+      // left={'🌿AiPMChat'}
       right={<ShareAgentButton />}
     />
   );

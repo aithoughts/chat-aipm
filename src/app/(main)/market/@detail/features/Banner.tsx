@@ -1,4 +1,4 @@
-import { Avatar } from '@aipmui/ui';
+import { Avatar } from '@aipmorg/ui';
 import { Skeleton } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';

@@ -1,4 +1,4 @@
-import { ChatInputActionBar } from '@aipmui/ui';
+import { ChatInputActionBar } from '@aipmorg/ui';
 import { ReactNode, memo, useMemo } from 'react';
 
 import { ActionKeys, actionMap, getLeftActionList, getRightActionList } from './config';

@@ -1,4 +1,4 @@
-import { Input, Modal, type ModalProps } from '@aipmui/ui';
+import { Input, Modal, type ModalProps } from '@aipmorg/ui';
 import { App } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { memo, useState } from 'react';

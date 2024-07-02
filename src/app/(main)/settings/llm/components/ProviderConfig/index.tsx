@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@aipmui/ui';
+import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@aipmorg/ui';
 import { Input, Switch } from 'antd';
 import { createStyles } from 'antd-style';
 import { debounce } from 'lodash-es';

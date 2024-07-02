@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@aipmui/ui';
+import { Icon, Tooltip } from '@aipmorg/ui';
 import { Badge, Tag } from 'antd';
 import { LucideCloudy, LucideRefreshCw, LucideRouter, LucideWifiOff } from 'lucide-react';
 import { memo } from 'react';

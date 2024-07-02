@@ -1,5 +1,5 @@
-import { type ChatItemProps } from '@aipmui/ui';
-import { ActionEvent } from '@aipmui/ui';
+import { type ChatItemProps } from '@aipmorg/ui';
+import { ActionEvent } from '@aipmorg/ui';
 import { FC, ReactNode } from 'react';
 
 import { LLMRoleType } from '@/types/llm';

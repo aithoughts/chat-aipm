@@ -1,4 +1,4 @@
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import isEqual from 'fast-deep-equal';
 import { PackageSearch } from 'lucide-react';
 import { memo, useState } from 'react';

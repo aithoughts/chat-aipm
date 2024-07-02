@@ -1,6 +1,6 @@
 'use client';
 
-import { DraggablePanel } from '@aipmui/ui';
+import { DraggablePanel } from '@aipmorg/ui';
 import { memo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

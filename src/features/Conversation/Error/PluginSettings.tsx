@@ -1,4 +1,4 @@
-import { Avatar } from '@aipmui/ui';
+import { Avatar } from '@aipmorg/ui';
 import { Button, Divider } from 'antd';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';

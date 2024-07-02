@@ -1,6 +1,6 @@
 'use client';
 
-import { Ollama } from '@lobehub/icons';
+import { Ollama } from '@aipmorg/icons';
 import { useTranslation } from 'react-i18next';
 
 import { OllamaProviderCard } from '@/config/modelProviders';

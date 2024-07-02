@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type ItemGroup, Tooltip } from '@aipmui/ui';
+import { Form, type ItemGroup, Tooltip } from '@aipmorg/ui';
 import { SiWebrtc } from '@icons-pack/react-simple-icons';
 import { Form as AntForm, Input, Switch, Typography } from 'antd';
 import { memo } from 'react';

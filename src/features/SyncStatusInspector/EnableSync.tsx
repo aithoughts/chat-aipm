@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Icon } from '@aipmui/ui';
+import { ActionIcon, Avatar, Icon } from '@aipmorg/ui';
 import { Divider, Popover, Switch, Tag, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { TooltipPlacement } from 'antd/es/tooltip';

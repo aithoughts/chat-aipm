@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Highlighter, Icon, Tag } from '@aipmui/ui';
+import { ActionIcon, Avatar, Highlighter, Icon, Tag } from '@aipmorg/ui';
 import { Loading3QuartersOutlined } from '@ant-design/icons';
 import { Tabs } from 'antd';
 import isEqual from 'fast-deep-equal';

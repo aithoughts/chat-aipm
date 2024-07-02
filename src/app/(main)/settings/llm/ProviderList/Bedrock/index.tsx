@@ -1,6 +1,6 @@
 'use client';
 
-import { Aws, Bedrock } from '@lobehub/icons';
+import { Aws, Bedrock } from '@aipmorg/icons';
 import { Divider, Input, Select } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';

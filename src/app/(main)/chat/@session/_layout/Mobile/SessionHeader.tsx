@@ -1,7 +1,7 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@aipmui/ui';
-// import { AiPMChat } from '@aipmui/ui/aipmorg';
+import { ActionIcon, MobileNavBar } from '@aipmorg/ui';
+import { AiPMChat } from '@aipmorg/ui/aipmorg';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
@@ -24,8 +24,8 @@ const Header = memo(() => {
       left={
         <Flexbox align={'center'} gap={8} horizontal style={{ marginLeft: 8 }}>
           <UserAvatar onClick={() => router.push('/me')} size={32} />
-          {/* <AiPMChat type={'text'} /> */}
-          🌿AiPMChat
+          <AiPMChat type={'text'} />
+          {/* 🌿AiPMChat */}
           {enableWebrtc && <SyncStatusInspector placement={'bottom'} />}
         </Flexbox>
       }

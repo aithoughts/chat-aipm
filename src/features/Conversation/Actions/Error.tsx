@@ -1,5 +1,5 @@
-import { ActionIconGroup } from '@aipmui/ui';
-import { ActionsBarProps } from '@aipmui/ui/es/ChatList/ActionsBar';
+import { ActionIconGroup } from '@aipmorg/ui';
+import { ActionsBarProps } from '@aipmorg/ui/es/ChatList/ActionsBar';
 import { memo } from 'react';
 
 import { useChatListActionsBar } from '../hooks/useChatListActionsBar';

@@ -1,4 +1,4 @@
-import { ActionIcon, SliderWithInput } from '@aipmui/ui';
+import { ActionIcon, SliderWithInput } from '@aipmorg/ui';
 import { Popover, Switch } from 'antd';
 import { Timer, TimerOff } from 'lucide-react';
 import { memo, useState } from 'react';

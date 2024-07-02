@@ -1,6 +1,6 @@
 'use client';
 
-import { Form } from '@aipmui/ui';
+import { Form } from '@aipmorg/ui';
 import { SiDiscord, SiGithub, SiMedium, SiRss, SiX } from '@icons-pack/react-simple-icons';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';

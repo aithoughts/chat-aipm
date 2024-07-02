@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert, Highlighter } from '@aipmui/ui';
+import { Alert, Highlighter } from '@aipmorg/ui';
 import { CheckCircleFilled } from '@ant-design/icons';
 import { Button } from 'antd';
 import { useTheme } from 'antd-style';

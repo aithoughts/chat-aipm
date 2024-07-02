@@ -1,4 +1,4 @@
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@aipmorg/ui';
 import { Button, Skeleton, Space } from 'antd';
 import { createStyles } from 'antd-style';
 import { ChevronUp, CornerDownLeft, LucideCommand } from 'lucide-react';

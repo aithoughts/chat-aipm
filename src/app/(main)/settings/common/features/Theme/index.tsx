@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type ItemGroup, SelectWithImg, SliderWithInput } from '@aipmui/ui';
+import { Form, type ItemGroup, SelectWithImg, SliderWithInput } from '@aipmorg/ui';
 import { Select } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { Monitor, Moon, Sun } from 'lucide-react';

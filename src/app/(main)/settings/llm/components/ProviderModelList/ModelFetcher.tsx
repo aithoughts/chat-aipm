@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@aipmui/ui';
+import { Icon, Tooltip } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { SendHorizonal } from 'lucide-react';
 import Link from 'next/link';

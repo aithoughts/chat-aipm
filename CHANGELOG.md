@@ -13096,7 +13096,7 @@
 
 #### 💄 Styles
 
-- **misc**: Switch Modal components to @aipmui/ui.
+- **misc**: Switch Modal components to @aipmorg/ui.
 
 <br />
 
@@ -13105,7 +13105,7 @@
 
 #### Styles
 
-- **misc**: Switch Modal components to @aipmui/ui ([d056015](https://github.com/aipmhub/aipm-chat/commit/d056015))
+- **misc**: Switch Modal components to @aipmorg/ui ([d056015](https://github.com/aipmhub/aipm-chat/commit/d056015))
 
 </details>
 

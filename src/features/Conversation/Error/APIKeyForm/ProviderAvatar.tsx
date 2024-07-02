@@ -13,7 +13,7 @@ import {
   Tongyi,
   ZeroOne,
   Zhipu,
-} from '@lobehub/icons';
+} from '@aipmorg/icons';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';
 

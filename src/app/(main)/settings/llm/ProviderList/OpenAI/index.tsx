@@ -1,6 +1,6 @@
 'use client';
 
-import { OpenAI } from '@lobehub/icons';
+import { OpenAI } from '@aipmorg/icons';
 
 import { OpenAIProviderCard } from '@/config/modelProviders';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';

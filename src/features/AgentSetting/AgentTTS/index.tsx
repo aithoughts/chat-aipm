@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, ItemGroup } from '@aipmui/ui';
+import { Form, ItemGroup } from '@aipmorg/ui';
 import { VoiceList } from '@lobehub/tts';
 import { Select, Switch } from 'antd';
 import { debounce } from 'lodash-es';

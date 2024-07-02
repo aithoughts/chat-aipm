@@ -1,4 +1,4 @@
-import { ActionIcon, EditableText, Icon } from '@aipmui/ui';
+import { ActionIcon, EditableText, Icon } from '@aipmorg/ui';
 import { App, Dropdown, type MenuProps, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import {

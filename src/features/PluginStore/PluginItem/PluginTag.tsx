@@ -1,4 +1,4 @@
-import { Icon, Tag } from '@aipmui/ui';
+import { Icon, Tag } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { BadgeCheck, CircleUser, Package } from 'lucide-react';
 import { rgba } from 'polished';

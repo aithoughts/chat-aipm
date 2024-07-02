@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { XIcon } from 'lucide-react';
 import { rgba } from 'polished';

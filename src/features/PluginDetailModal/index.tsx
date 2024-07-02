@@ -1,4 +1,4 @@
-import { Modal, TabsNav } from '@aipmui/ui';
+import { Modal, TabsNav } from '@aipmorg/ui';
 import { Divider, TabsProps } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

@@ -1,4 +1,4 @@
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { Plus } from 'lucide-react';
 import { memo } from 'react';

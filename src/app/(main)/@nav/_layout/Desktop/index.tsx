@@ -1,6 +1,6 @@
 'use client';
 
-import { SideNav } from '@aipmui/ui';
+import { SideNav } from '@aipmorg/ui';
 import { memo } from 'react';
 
 import { useActiveTabKey } from '@/hooks/useActiveTabKey';

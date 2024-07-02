@@ -1,4 +1,4 @@
-import { ActionIcon, Alert, Highlighter } from '@aipmui/ui';
+import { ActionIcon, Alert, Highlighter } from '@aipmorg/ui';
 import { AudioPlayer, AudioPlayerProps } from '@lobehub/tts/react';
 import { Button } from 'antd';
 import { TrashIcon } from 'lucide-react';

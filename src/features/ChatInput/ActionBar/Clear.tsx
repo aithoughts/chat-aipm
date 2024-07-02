@@ -1,4 +1,4 @@
-import { ActionIcon } from '@aipmui/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { Popconfirm } from 'antd';
 import { Eraser } from 'lucide-react';
 import { memo, useCallback, useState } from 'react';

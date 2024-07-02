@@ -1,4 +1,4 @@
-import { ActionIcon, Image } from '@aipmui/ui';
+import { ActionIcon, Image } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { Trash } from 'lucide-react';
 import { CSSProperties, memo, useCallback } from 'react';

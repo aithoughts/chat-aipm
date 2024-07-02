@@ -1,4 +1,4 @@
-import { ChatMessage } from '@aipmui/ui';
+import { ChatMessage } from '@aipmorg/ui';
 
 import { Compressor } from '@/utils/compass';
 

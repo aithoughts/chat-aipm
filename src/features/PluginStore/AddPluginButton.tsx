@@ -1,4 +1,4 @@
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { PackagePlus } from 'lucide-react';
 import { forwardRef, useState } from 'react';

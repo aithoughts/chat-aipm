@@ -1,4 +1,4 @@
-import { Modal } from '@aipmui/ui';
+import { Modal } from '@aipmorg/ui';
 import { Button, FormInstance } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { memo, useState } from 'react';

@@ -1,4 +1,4 @@
-import { ActionEvent, ActionIconGroup, type ActionIconGroupProps } from '@aipmui/ui';
+import { ActionEvent, ActionIconGroup, type ActionIconGroupProps } from '@aipmorg/ui';
 import isEqual from 'fast-deep-equal';
 import { memo, useCallback } from 'react';
 

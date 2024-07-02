@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@aipmui/ui';
+import { Icon } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { LoaderCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

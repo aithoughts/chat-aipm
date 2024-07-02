@@ -1,4 +1,4 @@
-import { Avatar, Icon } from '@aipmui/ui';
+import { Avatar, Icon } from '@aipmorg/ui';
 import isEqual from 'fast-deep-equal';
 import { Loader2, LucideChevronDown, LucideChevronRight, LucideToyBrick } from 'lucide-react';
 import { CSSProperties, memo, useState } from 'react';

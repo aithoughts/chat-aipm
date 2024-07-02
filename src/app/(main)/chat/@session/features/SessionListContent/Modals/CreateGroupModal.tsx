@@ -1,4 +1,4 @@
-import { Input, Modal, type ModalProps } from '@aipmui/ui';
+import { Input, Modal, type ModalProps } from '@aipmorg/ui';
 import { App } from 'antd';
 import { MouseEvent, memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
