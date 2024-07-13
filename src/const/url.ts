@@ -6,10 +6,13 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-export const OFFICIAL_URL = 'https://chat-aipm.theforage.cn/';
-export const OFFICIAL_SITE = 'https://theforage.cn/';
+export const OFFICIAL_URL = 'hhttps://chat-aipm.theforage.cn/';
+export const OFFICIAL_PREVIEW_URL = 'https://chat-aipm.theforage.cn/';
+export const OFFICIAL_SITE = 'https://lobehub.com/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
+
+export const OG_URL = '/og/cover.png?v=1';
 
 export const GITHUB = pkg.homepage;
 export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new/choose');
@@ -19,6 +22,7 @@ export const DOCKER_IMAGE = 'https://hub.docker.com/r/lobehub/lobe-chat';
 export const DOCUMENTS = urlJoin(OFFICIAL_SITE, '/docs');
 export const USAGE_DOCUMENTS = urlJoin(DOCUMENTS, '/usage');
 export const SELF_HOSTING_DOCUMENTS = urlJoin(DOCUMENTS, '/self-hosting');
+export const WEBRTC_SYNC_DOCUMENTS = urlJoin(SELF_HOSTING_DOCUMENTS, '/advanced/webrtc');
 
 export const WIKI = urlJoin(GITHUB, 'wiki');
 export const WIKI_PLUGIN_GUIDE = urlJoin(USAGE_DOCUMENTS, '/plugins/development');
