@@ -1,4 +1,4 @@
-import { Ollama } from '@aipmorg/icons';
+import { Ollama } from '@lobehub/icons';
 import { Button, Input, Progress } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo, useMemo, useState } from 'react';

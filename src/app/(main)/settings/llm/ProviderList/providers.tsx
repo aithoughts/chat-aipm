@@ -18,7 +18,7 @@ import {
   Tongyi,
   ZeroOne,
   Zhipu,
-} from '@aipmorg/icons';
+} from '@lobehub/icons';
 import { Divider } from 'antd';
 import { useTheme } from 'antd-style';
 import { useMemo } from 'react';

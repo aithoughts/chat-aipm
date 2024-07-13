@@ -1,7 +1,7 @@
 'use client';
 
-import { Azure, OpenAI } from '@aipmorg/icons';
 import { Markdown } from '@aipmorg/ui';
+import { Azure, OpenAI } from '@lobehub/icons';
 import { AutoComplete, Divider, Input } from 'antd';
 import { createStyles } from 'antd-style';
 import { useTranslation } from 'react-i18next';

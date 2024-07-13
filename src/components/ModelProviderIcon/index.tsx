@@ -21,7 +21,7 @@ import {
   Tongyi,
   ZeroOne,
   Zhipu,
-} from '@aipmorg/icons';
+} from '@lobehub/icons';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';
 

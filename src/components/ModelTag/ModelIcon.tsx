@@ -31,7 +31,7 @@ import {
   Tongyi,
   Wenxin,
   Yi,
-} from '@aipmorg/icons';
+} from '@lobehub/icons';
 import { memo } from 'react';
 
 interface ModelIconProps {
