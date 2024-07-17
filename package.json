@@ -25,7 +25,6 @@
   "license": "MIT",
   "author": "AiPMHub <nextprofessionalpower@gmail.com>",
   "sideEffects": false,
-  "packageManager": "pnpm@9.5.0",
   "scripts": {
     "build": "next build",
     "postbuild": "npm run build-sitemap && npm run build-migrate-db",
@@ -268,6 +267,7 @@
     "vitest": "~1.2.2",
     "vitest-canvas-mock": "^0.3.3"
   },
+  "packageManager": "pnpm@9.5.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

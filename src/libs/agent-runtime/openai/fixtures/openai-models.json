@@ -156,7 +156,7 @@
     "owned_by": "openai-internal"
   },
   {
-    "id": "gpt-3.5-turbo-0125",
+    "id": "gpt-3.5-turbo",
     "object": "model",
     "created": 1706048358,
     "owned_by": "system"

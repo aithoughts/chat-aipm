@@ -22,7 +22,7 @@ body:
       label: '📌 Version'
     validations:
       required: true
-  
+
   - type: dropdown
     attributes:
       label: '💻 Operating System'

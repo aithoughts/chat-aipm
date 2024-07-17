@@ -75,7 +75,7 @@ describe('LobeZhipuAI', () => {
                 id: 'chatcmpl-8xDx5AETP8mESQN7UB30GxTN2H1SO',
                 object: 'chat.completion.chunk',
                 created: 1709125675,
-                model: 'gpt-3.5-turbo-0125',
+                model: 'gpt-3.5-turbo',
                 system_fingerprint: 'fp_86156a94a0',
                 choices: [
                   { index: 0, delta: { content: 'hello' }, logprobs: null, finish_reason: null },

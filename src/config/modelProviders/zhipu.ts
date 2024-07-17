@@ -41,7 +41,8 @@ const ZhiPu: ModelProviderCard = {
       tokens: 128_000,
     },
     {
-      description: '实现了视觉语言特征的深度融合，支持视觉问答、图像字幕、视觉定位、复杂目标检测等各类图像理解任务',
+      description:
+        '实现了视觉语言特征的深度融合，支持视觉问答、图像字幕、视觉定位、复杂目标检测等各类图像理解任务',
       displayName: 'GLM-4V',
       enabled: true,
       id: 'glm-4v',
@@ -49,7 +50,8 @@ const ZhiPu: ModelProviderCard = {
       vision: true,
     },
     {
-      description: '适用于对知识量、推理能力、创造力要求较高的场景，比如广告文案、小说写作、知识类写作、代码生成等',
+      description:
+        '适用于对知识量、推理能力、创造力要求较高的场景，比如广告文案、小说写作、知识类写作、代码生成等',
       displayName: 'GLM-3-Turbo',
       functionCall: true,
       id: 'glm-3-turbo',
