@@ -101,10 +101,10 @@ export const useAppearance = () => {
     baseTheme: isDarkMode ? dark : undefined,
     elements: styles,
     layout: {
-      helpPageUrl: 'https://lobehub.com/docs',
-      privacyPageUrl: 'https://lobehub.com/legal/privacy',
+      helpPageUrl: 'https://theforage.cn/docs',
+      privacyPageUrl: 'https://theforage.cn/legal/privacy',
       socialButtonsVariant: 'blockButton',
-      termsPageUrl: 'https://lobehub.com/legal/terms',
+      termsPageUrl: 'https://theforage.cn/legal/terms',
     },
     variables: {
       borderRadius: `${theme.borderRadius}px`,

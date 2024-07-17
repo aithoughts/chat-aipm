@@ -197,7 +197,7 @@ exports[`ToolService > getPluginManifest > support OpenAPI manifest > should get
   },
   "ui": {
     "height": 310,
-    "url": "https://realtime-weather.chat-plugin.lobehub.com/iframe",
+    "url": "https://realtime-weather.chat-plugin.theforage.cn/iframe",
   },
   "version": "1",
 }

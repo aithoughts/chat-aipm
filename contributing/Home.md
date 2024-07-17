@@ -8,7 +8,7 @@
 
 AiPMChat is an open-source, extensible ([Function Calling][fc-url]), high-performance chatbot framework. <br/> It supports one-click free deployment of your private ChatGPT/LLM web application.
 
-[Usage Documents](https://lobehub.com/docs) | [使用指南](https://lobehub.com/docs)
+[Usage Documents](https://theforage.cn/docs) | [使用指南](https://theforage.cn/docs)
 
 </div>
 
@@ -55,7 +55,7 @@ AiPMChat is an open-source, extensible ([Function Calling][fc-url]), high-perfor
 ### 🧩 Plugins
 
 - [Plugin Index and Submit](https://github.com/aipmhub/aipm-chat-plugins) | [插件索引与提交](https://github.com/aipmhub/aipm-chat-plugins/blob/main/README.zh-CN.md)
-- [Plugin SDK Docs](https://chat-plugin-sdk.lobehub.com) | [插件 SDK 文档](https://chat-plugin-sdk.lobehub.com)
+- [Plugin SDK Docs](https://chat-plugin-sdk.theforage.cn) | [插件 SDK 文档](https://chat-plugin-sdk.theforage.cn)
 
 <br/>
 

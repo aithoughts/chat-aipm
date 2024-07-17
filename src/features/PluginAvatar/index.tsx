@@ -1,4 +1,4 @@
-import { Avatar, Icon } from '@lobehub/ui';
+import { Avatar, Icon } from '@aipmorg/ui';
 import isEqual from 'fast-deep-equal';
 import { LucideToyBrick } from 'lucide-react';
 import { memo } from 'react';

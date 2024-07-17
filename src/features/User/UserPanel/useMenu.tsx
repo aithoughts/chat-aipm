@@ -178,7 +178,7 @@ export const useMenu = () => {
       key: 'cloud',
       label: (
         <Link href={OFFICIAL_URL} target={'_blank'}>
-          {t('userPanel.cloud', { name: 'LobeChat Cloud' })}
+          {t('userPanel.cloud', { name: 'AiPMChat Cloud' })}
         </Link>
       ),
     },

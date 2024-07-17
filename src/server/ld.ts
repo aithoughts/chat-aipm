@@ -8,23 +8,11 @@ import pkg from '../../package.json';
 const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const LAST_MODIFIED = new Date().toISOString();
 export const AUTHOR_LIST = {
-  arvinxx: {
-    avatar: 'https://avatars.githubusercontent.com/u/28616219?v=4',
-    desc: 'Founder, Design Engineer',
-    name: 'Arvin Xu',
-    url: 'https://github.com/arvinxx',
-  },
-  canisminor: {
-    avatar: 'https://avatars.githubusercontent.com/u/17870709?v=4',
-    desc: 'Founder, Design Engineer',
-    name: 'CanisMinor',
-    url: 'https://github.com/arvinxx',
-  },
-  lobehub: {
-    avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
+  aipmhub: {
+    avatar: 'https://avatars.githubusercontent.com/u/143507173?v=4',
     desc: 'Official Account',
     name: 'AiPMHub',
-    url: 'https://github.com/lobehub',
+    url: 'https://github.com/aipmhub',
   },
 };
 
@@ -106,8 +94,8 @@ class Ld {
       '@type': 'Organization',
     };
     if (!ids || ids.length === 0) return defaultAuthor;
-    if (ids.length === 1 && ids[0] === 'lobehub') return defaultAuthor;
-    const personId = ids.find((id) => id !== 'lobehub');
+    if (ids.length === 1 && ids[0] === 'aipmhub') return defaultAuthor;
+    const personId = ids.find((id) => id !== 'aipmhub');
     if (!personId) return defaultAuthor;
     const person = (AUTHOR_LIST as any)?.[personId];
     if (!person) return defaultAuthor;

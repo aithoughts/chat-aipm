@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmorg/ui';
 import { useSize } from 'ahooks';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
@@ -57,11 +57,11 @@ const CloudBanner = memo<{ mobile?: boolean }>(({ mobile }) => {
 
   const content = (
     <Flexbox align={'center'} flex={'none'} gap={8} horizontal ref={contentRef}>
-      <b>{t('alert.cloud.title', { name: 'LobeChat Cloud' })}:</b>
+      <b>{t('alert.cloud.title', { name: 'AiPMChat Cloud' })}:</b>
       <span>
         {t(mobile ? 'alert.cloud.descOnMobile' : 'alert.cloud.desc', {
           credit: new Intl.NumberFormat('en-US').format(500_000),
-          name: 'LobeChat Cloud',
+          name: 'AiPMChat Cloud',
         })}
       </span>
     </Flexbox>

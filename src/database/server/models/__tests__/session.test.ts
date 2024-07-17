@@ -14,7 +14,7 @@ import {
   sessions,
   topics,
   users,
-} from '../../schemas/lobechat';
+} from '../../schemas/aipmchat';
 import { idGenerator } from '../../utils/idGenerator';
 import { SessionModel } from '../session';
 

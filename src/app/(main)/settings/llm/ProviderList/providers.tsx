@@ -51,7 +51,7 @@ import { useBedrockProvider } from './Bedrock';
 import { useOllamaProvider } from './Ollama';
 import { useOpenAIProvider } from './OpenAI';
 
-const BASE_DOC_URL = 'https://lobehub.com/docs/usage/providers';
+const BASE_DOC_URL = 'https://theforage.cn/docs/usage/providers';
 
 const AnthropicBrand = () => {
   const { isDarkMode } = useTheme();

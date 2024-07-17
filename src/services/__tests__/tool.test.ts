@@ -58,7 +58,7 @@ describe('ToolService', () => {
         $schema: '../node_modules/@aipmorg/chat-plugin-sdk/schema.json',
         api: [
           {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/api/v1',
+            url: 'https://realtime-weather.chat-plugin.theforage.cn/api/v1',
             name: 'fetchCurrentWeather',
             description: '获取当前天气情况',
             parameters: {
@@ -84,7 +84,7 @@ describe('ToolService', () => {
           description: 'Get realtime weather information',
         },
         ui: {
-          url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+          url: 'https://realtime-weather.chat-plugin.theforage.cn/iframe',
           height: 310,
         },
         version: '1',
@@ -200,7 +200,7 @@ describe('ToolService', () => {
             description: 'Get realtime weather information',
           },
           ui: {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+            url: 'https://realtime-weather.chat-plugin.theforage.cn/iframe',
             height: 310,
           },
           version: '1',
@@ -237,7 +237,7 @@ describe('ToolService', () => {
             description: 'Get realtime weather information',
           },
           ui: {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+            url: 'https://realtime-weather.chat-plugin.theforage.cn/iframe',
             height: 310,
           },
           version: '1',

@@ -37,7 +37,7 @@
 #### 🧩 Plugins
 
 - [Plugin Index and Submit](https://github.com/aipmhub/aipm-chat-plugins) | [插件索引与提交](https://github.com/aipmhub/aipm-chat-plugins/blob/main/README.zh-CN.md)
-- [Plugin SDK Docs](https://chat-plugin-sdk.lobehub.com) | [插件 SDK 文档](https://chat-plugin-sdk.lobehub.com)
+- [Plugin SDK Docs](https://chat-plugin-sdk.theforage.cn) | [插件 SDK 文档](https://chat-plugin-sdk.theforage.cn)
 
 #### 📊 Others
 

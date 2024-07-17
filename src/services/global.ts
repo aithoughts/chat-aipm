@@ -4,7 +4,7 @@ import { edgeClient } from '@/libs/trpc/client';
 import { LobeAgentConfig } from '@/types/agent';
 import { GlobalServerConfig } from '@/types/serverConfig';
 
-const VERSION_URL = 'https://registry.npmmirror.com/@lobehub/chat';
+const VERSION_URL = 'https://registry.npmmirror.com/@aipmorg/chat';
 
 class GlobalService {
   /**

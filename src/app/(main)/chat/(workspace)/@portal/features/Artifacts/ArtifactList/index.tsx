@@ -1,4 +1,4 @@
-import { Avatar, Icon } from '@lobehub/ui';
+import { Avatar, Icon } from '@aipmorg/ui';
 import { Skeleton, Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';
