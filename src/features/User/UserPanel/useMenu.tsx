@@ -177,7 +177,7 @@ export const useMenu = () => {
       icon: <Icon icon={Cloudy} />,
       key: 'cloud',
       label: (
-        <Link href={OFFICIAL_URL} target={'_blank'}>
+        <Link href={`${OFFICIAL_URL}`} target={'_blank'}>
           {t('userPanel.cloud', { name: 'AiPMChat Cloud' })}
         </Link>
       ),

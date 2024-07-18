@@ -60,7 +60,7 @@ const CloudBanner = memo<{ mobile?: boolean }>(({ mobile }) => {
       <b>{t('alert.cloud.title', { name: 'AiPMChat Cloud' })}:</b>
       <span>
         {t(mobile ? 'alert.cloud.descOnMobile' : 'alert.cloud.desc', {
-          credit: new Intl.NumberFormat('en-US').format(500_000),
+          credit: new Intl.NumberFormat('en-US').format(450_000),
           name: 'AiPMChat Cloud',
         })}
       </span>
