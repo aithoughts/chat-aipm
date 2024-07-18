@@ -32,7 +32,7 @@ export const BLOG = urlJoin(OFFICIAL_SITE, 'blog');
 
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = pkg.bugs.url;
-export const DISCORD = 'https://discord.gg/sYB5zSyD';
+export const DISCORD = 'https://discord.gg/7fsdQQx4cx';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/legal/privacy');
 export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/legal/terms');
 
