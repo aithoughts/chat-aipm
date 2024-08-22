@@ -9,7 +9,8 @@
       "replaceBtn": "Başka bir grup",
       "title": "Yeni Asistan Önerileri:"
     },
-    "defaultMessage": "Ben sizin kişisel akıllı asistanınız AiPMChat'ım, şu anda size nasıl yardımcı olabilirim?\nDaha profesyonel veya özelleştirilmiş bir asistana ihtiyacınız varsa, özel bir asistan oluşturmak için `+` simgesine tıklayabilirsiniz",
+    "defaultMessage": "Ben sizin kişisel akıllı asistanınız LobeChat'ım, şu anda size nasıl yardımcı olabilirim?\nDaha profesyonel veya özelleştirilmiş bir asistana ihtiyacınız varsa, özel bir asistan oluşturmak için `+` simgesine tıklayabilirsiniz",
+    "defaultMessageWithoutCreate": "Ben size nasıl yardımcı olabilirim? ben AiPMChat, kişisel yapay zeka asistanıyım.",
     "qa": {
       "q01": "AiPMHub nedir?",
       "q02": "AiPMChat nedir?",

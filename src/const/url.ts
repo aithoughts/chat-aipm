@@ -8,7 +8,7 @@ import { INBOX_SESSION_ID } from './session';
 
 export const UTM_SOURCE = 'chat_preview';
 
-export const OFFICIAL_URL = 'https://chat-aipm.theforage.cn/';
+export const OFFICIAL_URL = 'https://5loi.com/';
 export const OFFICIAL_PREVIEW_URL = 'https://chat-aipm.theforage.cn/';
 export const OFFICIAL_SITE = 'https://theforage.cn/';
 
@@ -25,6 +25,10 @@ export const DOCUMENTS = urlJoin(OFFICIAL_SITE, '/docs');
 export const USAGE_DOCUMENTS = urlJoin(DOCUMENTS, '/usage');
 export const SELF_HOSTING_DOCUMENTS = urlJoin(DOCUMENTS, '/self-hosting');
 export const WEBRTC_SYNC_DOCUMENTS = urlJoin(SELF_HOSTING_DOCUMENTS, '/advanced/webrtc');
+export const DATABASE_SELF_HOSTING_URL = urlJoin(SELF_HOSTING_DOCUMENTS, '/server-database');
+
+// use this for the link
+export const DOCUMENTS_REFER_URL = `${DOCUMENTS}?utm_source=${UTM_SOURCE}`;
 
 export const WIKI = urlJoin(GITHUB, 'wiki');
 export const WIKI_PLUGIN_GUIDE = urlJoin(USAGE_DOCUMENTS, '/plugins/development');
