@@ -11,7 +11,7 @@ import {
 } from 'drizzle-orm/pg-core';
 import { createInsertSchema } from 'drizzle-zod';
 
-import { chunks } from '@/database/server/schemas/lobechat/rag';
+import { chunks } from '@/database/server/schemas/aipmchat/rag';
 
 import { idGenerator } from '../../utils/idGenerator';
 import { createdAt, updatedAt } from './_helpers';

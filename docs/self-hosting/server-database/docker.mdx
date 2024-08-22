@@ -1,7 +1,7 @@
 ---
-title: Deploying LobeChat Database with Docker
+title: Deploying AiPMChat Database with Docker
 description: >-
-  Learn how to deploy the LobeChat server database version using Docker on Linux
+  Learn how to deploy the AiPMChat server database version using Docker on Linux
   and local machines.
 tags:
   - LobeChat
@@ -21,12 +21,12 @@ tags:
 </div>
 
 <Callout type="info">
-This article assumes that you are familiar with the basic principles and processes of deploying the LobeChat server database version, so it only includes content related to core environment variable configuration. If you are not familiar with the deployment principles of the LobeChat server database version, please refer to [Deploying Server Database](/en/docs/self-hosting/server-database) first.
+This article assumes that you are familiar with the basic principles and processes of deploying the AiPMChat server database version, so it only includes content related to core environment variable configuration. If you are not familiar with the deployment principles of the AiPMChat server database version, please refer to [Deploying Server Database](/en/docs/self-hosting/server-database) first.
 </Callout>
 
 ## Deploying on a Linux Server
 
-Here is the process for deploying the LobeChat server database version on a Linux server:
+Here is the process for deploying the AiPMChat server database version on a Linux server:
 
 <Steps>
 
@@ -43,7 +43,7 @@ docker run --name my-postgres --network pg -e POSTGRES_PASSWORD=mysecretpassword
 The above command will create a PG instance named `my-postgres` on the network `pg`, where `pgvector/pgvector:pg16` is a Postgres 16 image with the pgvector plugin installed by default.
 
 <Callout type="info">
-The pgvector plugin provides vector search capabilities for Postgres, which is an important component for LobeChat to implement RAG.
+The pgvector plugin provides vector search capabilities for Postgres, which is an important component for AiPMChat to implement RAG.
 </Callout>
 
 <Callout type="warning">
@@ -104,7 +104,7 @@ In our official Docker image, the database schema migration is automatically exe
 
 ## Using Locally (Mac / Windows)
 
-The data version of LobeChat also supports direct use on a local Mac/Windows machine.
+The data version of AiPMChat also supports direct use on a local Mac/Windows machine.
 
 Here, we assume that you have a pg instance available on port 5432 locally on your Mac/Windows, with the account `postgres` and password `mysecretpassword`, accessible at `localhost:5432`.
 

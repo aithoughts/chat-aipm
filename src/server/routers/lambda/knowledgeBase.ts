@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 import { KnowledgeBaseModel } from '@/database/server/models/knowledgeBase';
-import { insertKnowledgeBasesSchema } from '@/database/server/schemas/lobechat';
+import { insertKnowledgeBasesSchema } from '@/database/server/schemas/aipmchat';
 import { authedProcedure, router } from '@/libs/trpc';
 import { KnowledgeBaseItem } from '@/types/knowledgeBase';
 

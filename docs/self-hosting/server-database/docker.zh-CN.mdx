@@ -1,6 +1,6 @@
 ---
-title: 使用 Docker 部署 LobeChat 数据库
-description: 详细步骤教你如何在 Docker 中部署 LobeChat 服务端数据库。
+title: 使用 Docker 部署 AiPMChat 数据库
+description: 详细步骤教你如何在 Docker 中部署 AiPMChat 服务端数据库。
 tags:
   - Docker
   - LobeChat
@@ -20,14 +20,14 @@ tags:
 </div>
 
 <Callout type="info">
-  本文已经假定你了解了 LobeChat 服务端数据库版本（下简称 DB
-  版）的部署基本原理和流程，因此只包含核心环境变量配置的内容。如果你还不了解 LobeChat DB
+  本文已经假定你了解了 AiPMChat 服务端数据库版本（下简称 DB
+  版）的部署基本原理和流程，因此只包含核心环境变量配置的内容。如果你还不了解 AiPMChat DB
   版的部署原理，请先查阅 [使用服务端数据库部署](/zh/docs/self-hosting/server-database) 。
 </Callout>
 
 ## 在 Linux 服务器上部署
 
-以下是在 Linux 服务器上部署 LobeChat DB 版的流程：
+以下是在 Linux 服务器上部署 AiPMChat DB 版的流程：
 
 <Steps>
 
@@ -44,7 +44,7 @@ docker run --name my-postgres --network pg -e POSTGRES_PASSWORD=mysecretpassword
 上述指令会创建一个名为 `my-postgres`，并且网络为 `pg` 的 PG 实例，其中 `pgvector/pgvector:pg16` 是一个 Postgres 16 的镜像，且默认安装了 pgvector 插件。
 
 <Callout type="info">
-  pgvector 插件为 Postgres 提供了向量搜索的能力，是 LobeChat 实现 RAG 的重要构件之一。
+  pgvector 插件为 Postgres 提供了向量搜索的能力，是 AiPMChat 实现 RAG 的重要构件之一。
 </Callout>
 
 <Callout type="warning">
@@ -109,7 +109,7 @@ docker run -it -d -p 3210:3210 --network pg --env-file lobe-chat.env --name lobe
 
 ## 在本地（Mac / Windows） 上使用
 
-LobeChat 的 DB 版也支持直接在本地的 Mac/Windows 本地使用。
+AiPMChat 的 DB 版也支持直接在本地的 Mac/Windows 本地使用。
 
 在此我们已假设你的本地有一个 5432 端口可用，账号为 `postgres` ，密码是 `mysecretpassword` 的 pg 实例，它在 `localhost:5432` 可用。
 

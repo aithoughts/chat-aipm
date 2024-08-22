@@ -40,7 +40,7 @@
     "all": "Wszystkie treści",
     "allFiles": "Wszystkie pliki",
     "allKnowledgeBases": "Wszystkie bazy wiedzy",
-    "disabled": "Aktualny tryb wdrożenia nie obsługuje rozmów z bazą wiedzy. Aby korzystać, przełącz się na wdrożenie bazy danych serwera lub skorzystaj z usługi LobeChat Cloud.",
+    "disabled": "Aktualny tryb wdrożenia nie obsługuje rozmów z bazą wiedzy. Aby korzystać, przełącz się na wdrożenie bazy danych serwera lub skorzystaj z usługi AiPMChat Cloud.",
     "library": {
       "action": {
         "add": "Dodaj",

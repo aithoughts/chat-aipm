@@ -136,7 +136,7 @@ const NotSupportClient = () => {
             <Link
               href={`${OFFICIAL_URL}?utm_source=${UTM_SOURCE}&utm_medium=client_not_support_file`}
             >
-              LobeChat Cloud
+              AiPMChat Cloud
             </Link>
           </Trans>
         </Typography.Text>

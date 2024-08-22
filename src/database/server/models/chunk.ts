@@ -12,7 +12,7 @@ import {
   fileChunks,
   files,
   unstructuredChunks,
-} from '../schemas/lobechat';
+} from '../schemas/aipmchat';
 
 export class ChunkModel {
   private userId: string;

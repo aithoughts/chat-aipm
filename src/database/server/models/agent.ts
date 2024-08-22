@@ -9,7 +9,7 @@ import {
   agentsToSessions,
   files,
   knowledgeBases,
-} from '@/database/server/schemas/lobechat';
+} from '@/database/server/schemas/aipmchat';
 
 export class AgentModel {
   private userId: string;
