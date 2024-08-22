@@ -13,7 +13,7 @@ import {
   sessions,
   topics,
   users,
-} from '../../schemas/aipmchat';
+} from '../../schemas/lobechat';
 import { MessageModel } from '../message';
 
 let serverDB = await getTestDBInstance();

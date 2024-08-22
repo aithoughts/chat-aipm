@@ -28,7 +28,7 @@ import {
   messageTranslates,
   messages,
   messagesFiles,
-} from '../schemas/aipmchat';
+} from '../schemas/lobechat';
 
 export interface QueryMessageParams {
   current?: number;

@@ -7,7 +7,7 @@ import { KeyVaultsGateKeeper } from '@/server/modules/KeyVaultsEncrypt';
 import { UserPreference } from '@/types/user';
 import { UserSettings } from '@/types/user/settings';
 
-import { userSettings, users } from '../../schemas/aipmchat';
+import { userSettings, users } from '../../schemas/lobechat';
 import { SessionModel } from '../session';
 import { UserModel } from '../user';
 

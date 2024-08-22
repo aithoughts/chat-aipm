@@ -3,7 +3,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { getTestDBInstance } from '@/database/server/core/dbForTest';
 
-import { NewInstalledPlugin, installedPlugins, users } from '../../schemas/aipmchat';
+import { NewInstalledPlugin, installedPlugins, users } from '../../schemas/lobechat';
 import { PluginModel } from '../plugin';
 
 let serverDB = await getTestDBInstance();

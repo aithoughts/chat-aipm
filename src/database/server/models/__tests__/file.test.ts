@@ -10,7 +10,7 @@ import {
   knowledgeBaseFiles,
   knowledgeBases,
   users,
-} from '../../schemas/aipmchat';
+} from '../../schemas/lobechat';
 import { FileModel } from '../file';
 
 let serverDB = await getTestDBInstance();

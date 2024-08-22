@@ -7,7 +7,7 @@ import ws from 'ws';
 import { serverDBEnv } from '@/config/db';
 import { isServerMode } from '@/const/version';
 
-import * as schema from '../schemas/aipmchat';
+import * as schema from '../schemas/lobechat';
 
 export const getDBInstance = (): NeonDatabase<typeof schema> => {
   if (!isServerMode) return {} as any;

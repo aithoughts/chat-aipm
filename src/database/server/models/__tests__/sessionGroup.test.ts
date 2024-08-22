@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { getTestDBInstance } from '@/database/server/core/dbForTest';
 
-import { sessionGroups, users } from '../../schemas/aipmchat';
+import { sessionGroups, users } from '../../schemas/lobechat';
 import { SessionGroupModel } from '../sessionGroup';
 
 let serverDB = await getTestDBInstance();

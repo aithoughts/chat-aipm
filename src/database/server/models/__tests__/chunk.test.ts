@@ -11,7 +11,7 @@ import {
   files,
   unstructuredChunks,
   users,
-} from '../../schemas/aipmchat';
+} from '../../schemas/lobechat';
 import { ChunkModel } from '../chunk';
 import { codeEmbedding, designThinkingQuery, designThinkingQuery2 } from './fixtures/embedding';
 

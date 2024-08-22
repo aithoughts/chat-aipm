@@ -11,7 +11,7 @@ import {
   files,
   globalFiles,
   knowledgeBaseFiles,
-} from '../schemas/aipmchat';
+} from '../schemas/lobechat';
 
 export class FileModel {
   private readonly userId: string;

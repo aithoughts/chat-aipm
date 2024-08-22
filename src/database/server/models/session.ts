@@ -18,7 +18,7 @@ import {
   agentsToSessions,
   sessionGroups,
   sessions,
-} from '../schemas/aipmchat';
+} from '../schemas/lobechat';
 import { idGenerator } from '../utils/idGenerator';
 
 export class SessionModel {

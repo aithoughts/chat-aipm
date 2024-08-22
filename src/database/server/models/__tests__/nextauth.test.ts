@@ -15,7 +15,7 @@ import {
   nextauthSessions,
   nextauthVerificationTokens,
   users,
-} from '@/database/server/schemas/aipmchat';
+} from '@/database/server/schemas/lobechat';
 import { LobeNextAuthDbAdapter } from '@/libs/next-auth/adapter';
 
 let serverDB = await getTestDBInstance();

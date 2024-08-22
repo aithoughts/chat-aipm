@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { getTestDBInstance } from '@/database/server/core/dbForTest';
 
-import { NewKnowledgeBase, knowledgeBases, users } from '../../schemas/aipmchat';
+import { NewKnowledgeBase, knowledgeBases, users } from '../../schemas/lobechat';
 import { KnowledgeBaseModel } from '../knowledgeBase';
 
 let serverDB = await getTestDBInstance();
